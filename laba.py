@@ -1,5 +1,16 @@
+
 x = int(input('Введите число:'))
 A = []
+
+def x2(x):
+   x /= 2
+   return collatz(x)
+
+
+def x3_1(x):
+   x = x*3 + 1
+   return collatz(x)
+
 def collatz(x):
     global A
     if x == 1:
@@ -14,3 +25,4 @@ def collatz(x):
 
 collatz(x)
 print(A)
+
