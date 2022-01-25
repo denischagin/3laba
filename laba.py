@@ -23,4 +23,3 @@ def collatz(x):
 
 collatz(x)
 print(A)
-
